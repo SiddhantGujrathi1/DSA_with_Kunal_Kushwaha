@@ -1,0 +1,38 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        ArrayList<String>name = new ArrayList<>(10);
+
+        //To add elements in ArrayList
+        for (int i = 0; i < 5; i++) {
+            name.add(in.next());
+        }
+
+        //To print ArrayList
+        System.out.println(name);
+
+        //To check it contains an element or not
+        System.out.println(name.contains("ABC"));
+
+        //To modify element at index with value ( it can modify the elements which are available in array)
+        name.set(0,"XYZ");
+
+        //To remove value at index n or you can pass value
+        name.remove("sidd");
+
+        //To get an item at index
+        name.get(0);
+
+        //To add element at first
+        name.addFirst("siddd");
+
+        //To add element at last
+        name.addLast("vedant");
+
+    }
+
+}
