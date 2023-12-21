@@ -30,6 +30,12 @@ public class Main {
             System.out.println();
         }
 
+        //Print with foreach loop
+
+        for (int[] a:multi) {
+            System.out.println(Arrays.toString(a));
+        }
+
 
     }
 
