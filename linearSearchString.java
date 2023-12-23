@@ -7,6 +7,7 @@ public class Primitive {
         String a = "Siddhant";
         char s = 'S';
         System.out.println(search(a,s));
+        System.out.println(search1(a,'n'));
     }
     static boolean search(String arr , char target){
         if(arr.length() == 0)
@@ -17,4 +18,17 @@ public class Primitive {
         }
         return false;
     }
+
+
+    static boolean search1(String arr , char target){
+        if(arr.length() == 0)
+            return false;
+
+        for (char i:arr.toCharArray())
+            if(i == target)
+                return true;
+        return false;
+    }
+
+
 }
