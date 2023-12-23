@@ -39,6 +39,20 @@ public class Main {
 
     }
 
+
+    //Search element in 2D array
+    static int search(int[][] arr , int target){
+        if(arr.length == 0)
+            return -1;
+        for (int[] a:arr) {
+            for(int p:a){
+                if(p==target)
+                    return 1;
+            }
+        }
+        return -1;
+    }
+
     static void change(int[] arr){
         arr[0] = 99;
     }
