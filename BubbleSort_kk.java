@@ -3,7 +3,8 @@ import java.util.Arrays;
 /*
 
 Best Case : O(1)
-Worst Case : O(n<sup>2</sup>)
+Worst Case : O(n2)
+Stable Sorting Algorithm
 */
 public class BubbleSort_kk {
     public static void main(String[] args) {
