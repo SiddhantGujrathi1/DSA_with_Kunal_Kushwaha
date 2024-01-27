@@ -1,5 +1,10 @@
 import java.util.Arrays;
 
+/*
+
+Best Case : O(1)
+Worst Case : O(n<sup>2</sup>)
+*/
 public class BubbleSort_kk {
     public static void main(String[] args) {
         int[] arr = {23,45,12,56,24,13,7};
